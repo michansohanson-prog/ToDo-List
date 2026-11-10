@@ -1,54 +1,54 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Shopping List</title>
-		<link rel="stylesheet" href="style.css" />
-		<script src="main.js" defer></script>
-	</head>
-	<body>
-		<header>
-			<nav>
-				<a href="#github">GitHub</a>
-				<ul>
-					<li><a href="#one">One</a></li>
-					<li><a href="#two">Two</a></li>
-					<li><a href="#three">Three</a></li>
-				</ul>
-			</nav>
-			<h1>Shopping List</h1>
-		</header>
-		<main>
-			<fieldset class="inputArea">
-				<h2>Looking to protect yourself, or deal some damage?</h2>
-				<div>
-					<label>
-						Food Item:
-						<input
-							id="food-input"
-							type="text"
-							placeholder="Only include tasty food!"
-					/></label>
-					<button id="food-butt">Add to List</button>
-				</div>
-				<div>
-					<label>
-						Non-Food Items:<input
-							id="non-input"
-							type="text"
-							placeholder="Soap, paper products, etc"
-					/></label>
-					<button id="non-butt">Add to List</button>
-				</div>
-				<button id="remove">Removed checked items</button>
-			</fieldset>
-			<fieldset class="food-list">
-				<h2>Tasty Food Items:</h2>
-			</fieldset>
-			<fieldset class="non-list">
-				<h2>Non-Food Items:</h2>
-			</fieldset>
-		</main>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#github">GitHub</a>
+        <ul>
+          <li><a href="#one">One</a></li>
+          <li><a href="#two">Two</a></li>
+          <li><a href="#three">Three</a></li>
+        </ul>
+      </nav>
+      <h1>To Do List</h1>
+    </header>
+    <main>
+      <fieldset class="inputArea">
+        <h2>Add a task:</h2>
+        <div>
+          <label>
+            Inside tasks:
+            <input
+              id="food-input"
+              type="text"
+              placeholder="Only include tasty food!"
+          /></label>
+          <button id="food-butt">Add to List</button>
+        </div>
+        <div>
+          <label>
+            Outside tasks::<input
+              id="non-input"
+              type="text"
+              placeholder="Soap, paper products, etc"
+          /></label>
+          <button id="non-butt">Add to List</button>
+        </div>
+        <button id="remove">Removed checked items</button>
+      </fieldset>
+      <fieldset class="food-list">
+        <h2>Inside tasks:</h2>
+      </fieldset>
+      <fieldset class="non-list">
+        <h2>Outside tasks:</h2>
+      </fieldset>
+    </main>
+  </body>
 </html>
